@@ -1,0 +1,33 @@
+.menu {
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar {
+  max-width: 1000px;
+  margin: auto;
+}
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  color: #e5474b !important;
+  font-size: 30px;
+}
+.navbar-brand:hover {
+  color: #641618 !important;
+}
+.navbar ul li a {
+  color: #fff !important;
+  font-size: 14px !important;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+  color: #848484 !important;
+}
+.navbar i {
+  color: white;
+  font-size: 18px;
+}

@@ -1,0 +1,160 @@
+/* .bolum1 {
+  margin-top: 80px;
+}
+
+.bolum1 h2 {
+  color: #e5474b;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.bolum1 p {
+  line-height: 30px;
+}
+.bolum1 a {
+  color: #e5474b !important;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 0;
+}
+.bolum1 a:hover {
+  background: #f1f1f1;
+  color: #e5474b !important;
+} */
+
+/* body:before {
+  content: "";
+  background: url("../assets/images/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  z-index: -10;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.bolum3 {
+  margin-top: 80px;
+}
+.bolum3 i {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  padding: 35px;
+  color: #aaa;
+}
+.bolum3 h5 {
+  color: #e5474b !important;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.bolum3 p {
+  line-height: 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #171717;
+  text-align: justify;
+} */
+
+.bolum1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.bolum1 h2 {
+  font-size: 30px;
+  color: #555555;
+  font-weight: 400;
+}
+.bolum1 p {
+  font-size: 14px;
+  color: #555555;
+  letter-spacing: 0.5px;
+}
+.bolum1 .kart {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.bolum1 .kart i {
+  color: #ce1b28;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bolum1 .kart img {
+  width: 50%;
+  border-radius: 100%;
+}
+.bolum1 .kart h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #555555;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding: 20px;
+}
+.bolum1 .kart p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.bolum2 {
+  margin-top: 50px;
+  padding: 100px 0;
+  background: linear-gradient(rgba(225, 13, 13, 0.25), rgba(209, 14, 14, 0.25)),
+    url("../assets/images/cta01.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+.bolum2 h2 {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.bolum2 p {
+  color: #ededed;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
+.footer {
+  color: black;
+  padding-top: 80px;
+}
+.footer h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.footer input[type="text"] {
+  background: none;
+  border: 2px solid black;
+  color: white;
+}
+.footer input[type="text"]:focus {
+  border: 3px solid black;
+  box-shadow: none;
+}
+
+.footer textarea {
+  background-color: transparent !important;
+  border: 2px solid black;
+  color: black !important;
+}
+.footer textarea:focus {
+  border: 3px solid black;
+  box-shadow: none;
+}

@@ -1,0 +1,28 @@
+.footer {
+  color: black;
+  padding-top: 80px;
+}
+.footer h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.footer input[type="text"] {
+  background: none;
+  border: 2px solid black;
+  color: white;
+}
+.footer input[type="text"]:focus {
+  border: 3px solid black;
+  box-shadow: none;
+}
+
+.footer textarea {
+  background-color: transparent !important;
+  border: 2px solid black;
+  color: black !important;
+}
+.footer textarea:focus {
+  border: 3px solid black;
+  box-shadow: none;
+}

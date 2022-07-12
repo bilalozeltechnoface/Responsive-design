@@ -1,0 +1,22 @@
+.twice .col-md-6:nth-child(1) {
+  padding: 50px 50px;
+}
+.twice .col-md-6:nth-child(2) {
+  padding: 50px 50px;
+}
+.twice h3 {
+  color: #e5474b !important;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.twice img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.twice p {
+  line-height: 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}

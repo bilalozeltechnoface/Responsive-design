@@ -1,0 +1,81 @@
+/* .banner {
+  height: 100vh;
+  background: url("../../images/banner.jpg");
+  background-position: 0 60px;
+  background-size: cover;
+}
+.banner .icerik {
+  position: relative;
+  max-width: 1000px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: auto;
+}
+.banner .icerik h1 {
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.banner .icerik a {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+@media screen and (max-width: 992px) {
+  .banner {
+    height: 70vh;
+  }
+} */
+
+.banner {
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.banner video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 10;
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    height: 70vh;
+  }
+}
+.banner .filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #ce1b28 0%, #111111 74%);
+  z-index: 20;
+  opacity: 0.6;
+}
+
+.banner .yazi {
+  position: absolute;
+  z-index: 30;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+.banner .yazi h1 {
+  font-size: 70px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.banner .yazi p {
+  color: #fff;
+  font-size: 18px;
+}

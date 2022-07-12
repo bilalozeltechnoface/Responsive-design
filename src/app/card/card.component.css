@@ -1,0 +1,43 @@
+.bolum1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.bolum1 h2 {
+  font-size: 30px;
+  color: #555555;
+  font-weight: 400;
+}
+.bolum1 p {
+  font-size: 14px;
+  color: #555555;
+  letter-spacing: 0.5px;
+}
+.bolum1 .kart {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.bolum1 .kart i {
+  color: #ce1b28;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bolum1 .kart img {
+  width: 50%;
+  border-radius: 100%;
+}
+.bolum1 .kart h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #555555;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding: 20px;
+}
+.bolum1 .kart p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #555555;
+}
